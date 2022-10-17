@@ -1,0 +1,10 @@
+spring:
+  security:
+    user:
+      name: sunnyAdmin
+      password: 123 #qgx4Mq7WfDwGLAsf
+  #  web:
+  #    resources:
+  #      add-mappings: false
+  redis:
+    password: eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81
