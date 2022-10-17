@@ -1,4 +1,4 @@
-# csrfnosession
+# No Session Cookie set when ServerCsrfTokenRepository (in some cases)
 Spring Security CSRF NO Session Cookie Bug
 
 
