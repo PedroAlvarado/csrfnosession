@@ -32,11 +32,6 @@ fun main(args: Array<String>) {
 class Configs {
 
     @Bean
-    fun router() = coRouter {
-        GET("/web") { ServerResponse.ok().buildAndAwait() }
-    }
-
-    @Bean
     fun springSecurityFilterChain(http: ServerHttpSecurity): SecurityWebFilterChain {
         return http {
             httpBasic {  }
